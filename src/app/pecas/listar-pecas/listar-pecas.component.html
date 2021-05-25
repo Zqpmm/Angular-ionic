@@ -1,0 +1,16 @@
+
+<div>
+    <ion-list class="list-group">
+    <a class="list-group-item" >
+    
+        <a *ngFor="let peca of pecas"
+         [routerLink]="['/editar', peca.getCod]">
+            ({{peca.getCod}}) {{peca.getDescricao}}: 
+            R${{peca.getPreco}}
+
+            <br>
+         </a>
+    
+    </a>
+</ion-list>
+</div>
