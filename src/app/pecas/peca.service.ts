@@ -10,14 +10,14 @@ export class PecaService {
 
   constructor() {
     this.pecas = [
-      new Peca("4585", "Peça 1", 12, 50, 200,39.00, "loja 1, loja 2, loja 3, loja 4"),
-      new Peca("8454", "Peça 2", 20, 10, 80,10.99, "loja 1, loja 2, loja 3, loja 4"),
-      new Peca("1312", "Peça 3", 13, 5, 20,100.50, "loja 1, loja 2, loja 4"),
-      new Peca("9658", "Peça 4", 50, 10, 50,50.00, "loja 1, loja 2, loja 3, loja 4"),
-      new Peca("1348", "Peça 5", 80, 20, 100,10.00, "loja 1, loja 2, loja 3"),
-      new Peca("4574", "Peça 6", 16, 5, 45,5.00, "loja 1, loja 2, loja 3, loja 4"),
-      new Peca("6524", "Peça 7", 23, 25, 50,120.99, "loja 1, loja 3, loja 4"),
-      new Peca("0568", "Peça 8", 56, 60, 110,150.00, "loja 1, loja 2, loja 4")
+      new Peca("1", "Embreagem", 65, 12, 10,59.00, "Extrema, Pouso Alegre, São Paulo, Cambuí"),
+      new Peca("2", "Volante", 23, 18, 3,145.99, "Extrema, Pouso Alegre, São Paulo, Cambuí"),
+      new Peca("3", "Pneu", 12, 14, 21,27.00, "Extrema, Pouso Alegre, São Paulo, Cambuí"),
+      new Peca("4", "Farol", 15, 12, 60,7.00, "Extrema, Pouso Alegre, São Paulo"),      
+      new Peca("5", "Amortecedor", 26, 29, 12,10.99, "Extrema, Pouso Alegre, Cambuí"),
+      new Peca("6", "Retrovisor", 25, 21, 18,12.00, "Extrema, Pouso Alegre, São Paulo"),
+      new Peca("7", "Motor", 28, 12, 23,12.50, "Extrema, Pouso Alegre, Cambuí"),      
+      new Peca("8", "Roda", 34, 18, 55,15.00, "Extrema, Pouso Alegre, Cambuí")
     ]
   }
 
